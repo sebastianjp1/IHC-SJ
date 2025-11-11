@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LP-NRC:4055</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <nav class="top-header">
+      <a href="" class="logo">
+        <img height="40" width="50" src="img/LogoUPC.png" alt="" />
+      </a>
+
+      <ul class="Menu-Horizontal">
+        <li><a href="">Inicio</a></li>
+        <li>
+          <a href="">Productos</a>
+          <ul class="Menu-vertical">
+            <li><a href="">Tarjetas</a></li>
+            <li><a href="">Prestamos</a></li>
+            <li><a href="">Seguros</a></li>
+            <li><a href="">Pagos</a></li>
+            <li><a href="">Telegiros</a></li>
+          </ul>
+        </li>
+        <li><a href="">Servicios</a></li>
+        <li><a href="">Beneficios</a></li>
+        <li><a href="">Contactanos</a></li>
+      </ul>
+    </nav>
+    <section class="seccion-inicio">
+      <div class="cont-gral-inicio">
+        <div class="cont-ini-texto">
+          <h2>Seccion Inicio</h2>
+          <p>
+            Microsoft mantiene siempre controlando cualquier actividad inusual
+            de inicio de sesión, en el caso de que otra persona esté intentando
+            acceder a su cuenta. Si está viajando a un nuevo lugar o con un
+            nuevo dispositivo, se le podrá pedir que confirme si realmente es
+            usted.
+          </p>
+        </div>
+
+        <div class="cont-ini-img">
+          <img src="img/inicio.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-servicios">
+      <div class="cont-gral-servicios">
+        <div class="cont-serv-texto">
+          <h2>Seccion Servicios</h2>
+          <p>
+            El vídeo es un sistema tecnológico para la captura, grabación,
+            procesamiento, transmisión y reproducción de una secuencia de
+            imágenes en movimiento, que a menudo se acompaña de sonido. Es un
+            medio audiovisual fundamental tanto para el entretenimiento como
+            para la educación y la comunicación en la era digital.
+          </p>
+        </div>
+
+        <div class="cont-serv-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://youtu.be/Lg3ySc5StwI?si=K5Sg3AKiVshYkRUe"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="seccion-formulario">
+      <div class="div-cont-formulario">
+        <h2>Formulario Contactanos</h2>
+        <p>Complete todos campos</p>
+
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre completo:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+          <div class="campo">
+            <label for="pais">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione pais</option>
+              <option value="colommbia">Colombia</option>
+              <option value="brazil">Brazil</option>
+              <option value="mexico">Mexico</option>
+              <option value="argentina">Argentina</option>
+              <option value="paraguay">Paraguay</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label>Intereses:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    value="perros"
+                  />Perros</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    value="gatos"
+                  />Gatos</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    value="conejos"
+                  />Conejos</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    value="Jirafas"
+                  />Jirafas</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="interes"
+                    value="tortugas"
+                  />Tortugas</label
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenimo"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <img src="img/LogoUPC.png" alt="Logo" class="footer-logo" />
+            <p>UPC</p>
+            <small>2025 Todos los derechos reservados</small>
+          </div>
+
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/obtenerDocumento.pdf"
+              >Política de Privacidad</a
+            >
+            <a href="#">Términos y Condiciones</a>
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://img.freepik.com/psd-premium/logotipo-aplicacion-instagram_23-2151544088.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4VZoHwRyOe1hla83dYjzqBtdurSPUTUvuaw&s"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
